@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+	<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+		package="net.medlinker.medlinker" content-desc="" checkable="false"
+		checked="false" clickable="false" enabled="true" focusable="false"
+		focused="false" scrollable="false" long-clickable="false" password="false"
+		selected="false" bounds="[0,0][480,800]">
+		<node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+			package="net.medlinker.medlinker" content-desc="" checkable="false"
+			checked="false" clickable="false" enabled="true" focusable="false"
+			focused="false" scrollable="false" long-clickable="false" password="false"
+			selected="false" bounds="[0,0][480,800]">
+			<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout"
+				package="net.medlinker.medlinker" content-desc="" checkable="false"
+				checked="false" clickable="false" enabled="true" focusable="false"
+				focused="false" scrollable="false" long-clickable="false" password="false"
+				selected="false" bounds="[0,25][480,800]">
+				<node index="0" text="" resource-id=""
+					class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+					content-desc="" checkable="false" checked="false" clickable="false"
+					enabled="true" focusable="false" focused="false" scrollable="false"
+					long-clickable="false" password="false" selected="false" bounds="[0,25][480,800]">
+					<node index="0" text="" resource-id=""
+						class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false" bounds="[0,25][480,800]">
+						<node index="0" text="" resource-id=""
+							class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+							content-desc="" checkable="false" checked="false" clickable="false"
+							enabled="true" focusable="false" focused="false" scrollable="false"
+							long-clickable="false" password="false" selected="false" bounds="[0,25][480,75]">
+							<node index="0" text="" resource-id=""
+								class="android.widget.RelativeLayout" package="net.medlinker.medlinker"
+								content-desc="" checkable="false" checked="false" clickable="false"
+								enabled="true" focusable="false" focused="false" scrollable="false"
+								long-clickable="false" password="false" selected="false"
+								bounds="[0,25][480,75]">
+								<node index="0" text=""
+									resource-id="net.medlinker.medlinker:id/left_button_layout"
+									class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="true"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[0,25][52,75]" alias="back" click="last" primary="true">
+									<node index="0" text="返回"
+										resource-id="net.medlinker.medlinker:id/left_text" class="android.widget.TextView"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="false" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[0,39][52,61]" />
+								</node>
+								<node index="1" text="个人简介" resource-id="net.medlinker.medlinker:id/title"
+									class="android.widget.TextView" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="false"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[50,37][430,62]" />
+								<node index="2" text=""
+									resource-id="net.medlinker.medlinker:id/bottom_line" class="android.view.View"
+									package="net.medlinker.medlinker" content-desc="" checkable="false"
+									checked="false" clickable="false" enabled="true" focusable="false"
+									focused="false" scrollable="false" long-clickable="false"
+									password="false" selected="false" bounds="[0,74][480,75]" />
+								<node index="3" text=""
+									resource-id="net.medlinker.medlinker:id/right_button_layout"
+									class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="true"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[428,25][480,75]" alias="commit" click="last">
+									<node index="0" text="保存"
+										resource-id="net.medlinker.medlinker:id/right_text" class="android.widget.TextView"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="false" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[428,39][468,61]" />
+								</node>
+							</node>
+						</node>
+						<node index="1" text="" resource-id=""
+							class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+							content-desc="" checkable="false" checked="false" clickable="false"
+							enabled="true" focusable="false" focused="false" scrollable="false"
+							long-clickable="false" password="false" selected="false"
+							bounds="[0,75][480,800]">
+							<node index="0" text="请写下您的擅长领域、教育和工作背景、科研成果以及学术著作等信息"
+								resource-id="net.medlinker.medlinker:id/et_use_intro" class="android.widget.EditText"
+								package="net.medlinker.medlinker" content-desc="" checkable="false"
+								checked="false" clickable="true" enabled="true" focusable="true"
+								focused="true" scrollable="false" long-clickable="true"
+								password="false" selected="false" bounds="[12,75][468,785]" alias="intro_info" primary="true"/>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</hierarchy>

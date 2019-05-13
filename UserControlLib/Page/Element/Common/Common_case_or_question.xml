@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+	<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+		package="net.medlinker.medlinker" content-desc="" checkable="false"
+		checked="false" clickable="false" enabled="true" focusable="false"
+		focused="false" scrollable="false" long-clickable="false" password="false"
+		selected="false" bounds="[0,74][480,800]">
+		<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+			package="net.medlinker.medlinker" content-desc="" checkable="false"
+			checked="false" clickable="false" enabled="true" focusable="false"
+			focused="false" scrollable="false" long-clickable="false" password="false"
+			selected="false" bounds="[0,74][480,800]">
+			<node index="0" text="" resource-id=""
+				class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+				content-desc="" checkable="false" checked="false" clickable="false"
+				enabled="true" focusable="false" focused="false" scrollable="false"
+				long-clickable="false" password="false" selected="false" bounds="[0,74][480,147]">
+				<node index="0" text=""
+					resource-id="net.medlinker.medlinker:id/left_button_layout" class="android.widget.LinearLayout"
+					package="net.medlinker.medlinker" content-desc="" checkable="false"
+					checked="false" clickable="true" enabled="true" focusable="false"
+					focused="false" scrollable="false" long-clickable="false" password="false"
+					selected="false" bounds="[0,74][239,147]" alias="pub_question" click="Common_question_edit" primary="true">
+					<node index="0" text="提问" resource-id="net.medlinker.medlinker:id/left_text"
+						class="android.widget.TextView" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false"
+						bounds="[87,99][152,122]" />
+				</node>
+				<node index="1" text=""
+					resource-id="net.medlinker.medlinker:id/left_button_split_view"
+					class="android.view.View" package="net.medlinker.medlinker"
+					content-desc="" checkable="false" checked="false" clickable="false"
+					enabled="true" focusable="false" focused="false" scrollable="false"
+					long-clickable="false" password="false" selected="false"
+					bounds="[239,92][240,129]" />
+				<node index="2" text=""
+					resource-id="net.medlinker.medlinker:id/right_button_layout" class="android.widget.LinearLayout"
+					package="net.medlinker.medlinker" content-desc="" checkable="false"
+					checked="false" clickable="true" enabled="true" focusable="false"
+					focused="false" scrollable="false" long-clickable="false" password="false"
+					selected="false" bounds="[240,74][480,147]" alias="pub_case" click="Common_case_edit" primary="true">
+					<node index="0" text="发病例" resource-id="net.medlinker.medlinker:id/right_text"
+						class="android.widget.TextView" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false"
+						bounds="[319,99][400,122]" />
+				</node>
+			</node>
+		</node>
+	</node>
+</hierarchy>

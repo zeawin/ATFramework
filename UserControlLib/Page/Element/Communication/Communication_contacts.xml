@@ -1,0 +1,542 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+	<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+		package="net.medlinker.medlinker" content-desc="" checkable="false"
+		checked="false" clickable="false" enabled="true" focusable="false"
+		focused="false" scrollable="false" long-clickable="false" password="false"
+		selected="false" bounds="[0,0][480,800]">
+		<node index="0" text="" resource-id="" class="android.widget.LinearLayout"
+			package="net.medlinker.medlinker" content-desc="" checkable="false"
+			checked="false" clickable="false" enabled="true" focusable="false"
+			focused="false" scrollable="false" long-clickable="false" password="false"
+			selected="false" bounds="[0,0][480,800]">
+			<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout"
+				package="net.medlinker.medlinker" content-desc="" checkable="false"
+				checked="false" clickable="false" enabled="true" focusable="false"
+				focused="false" scrollable="false" long-clickable="false" password="false"
+				selected="false" bounds="[0,25][480,800]">
+				<node index="0" text="" resource-id=""
+					class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+					content-desc="" checkable="false" checked="false" clickable="false"
+					enabled="true" focusable="false" focused="false" scrollable="false"
+					long-clickable="false" password="false" selected="false" bounds="[0,25][480,800]">
+					<node index="0" text="" resource-id=""
+						class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false" bounds="[0,25][480,800]">
+						<node index="0" text="" resource-id=""
+							class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+							content-desc="" checkable="false" checked="false" clickable="false"
+							enabled="true" focusable="false" focused="false" scrollable="false"
+							long-clickable="false" password="false" selected="false" bounds="[0,25][480,75]">
+							<node index="0" text="" resource-id=""
+								class="android.widget.RelativeLayout" package="net.medlinker.medlinker"
+								content-desc="" checkable="false" checked="false" clickable="false"
+								enabled="true" focusable="false" focused="false" scrollable="false"
+								long-clickable="false" password="false" selected="false"
+								bounds="[0,25][480,75]">
+								<node index="0" text=""
+									resource-id="net.medlinker.medlinker:id/left_button_layout"
+									class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="true"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[0,25][52,75]">
+									<node index="0" text="取消"
+										resource-id="net.medlinker.medlinker:id/left_text" class="android.widget.TextView"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="false" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[0,39][52,61]" />
+								</node>
+								<node index="1" text="通讯录" resource-id="net.medlinker.medlinker:id/title"
+									class="android.widget.TextView" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="false"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[50,37][430,62]" alias="title" primary="true"/>
+								<node index="2" text=""
+									resource-id="net.medlinker.medlinker:id/bottom_line" class="android.view.View"
+									package="net.medlinker.medlinker" content-desc="" checkable="false"
+									checked="false" clickable="false" enabled="true" focusable="false"
+									focused="false" scrollable="false" long-clickable="false"
+									password="false" selected="false" bounds="[0,74][480,75]" />
+								<node index="3" text=""
+									resource-id="net.medlinker.medlinker:id/right_button_layout"
+									class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="true"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[396,25][480,75]">
+									<node index="0" text="发起群聊"
+										resource-id="net.medlinker.medlinker:id/right_text" class="android.widget.TextView"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="false" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[396,39][468,61]" />
+								</node>
+							</node>
+						</node>
+						<node index="1" text=""
+							resource-id="net.medlinker.medlinker:id/fragment_content" class="android.widget.FrameLayout"
+							package="net.medlinker.medlinker" content-desc="" checkable="false"
+							checked="false" clickable="false" enabled="true" focusable="false"
+							focused="false" scrollable="false" long-clickable="false"
+							password="false" selected="false" bounds="[0,75][480,800]">
+							<node index="0" text="" resource-id=""
+								class="android.widget.RelativeLayout" package="net.medlinker.medlinker"
+								content-desc="" checkable="false" checked="false" clickable="false"
+								enabled="true" focusable="false" focused="false" scrollable="false"
+								long-clickable="false" password="false" selected="false"
+								bounds="[0,75][480,800]">
+								<node index="0" text=""
+									resource-id="net.medlinker.medlinker:id/relative_search" class="android.widget.RelativeLayout"
+									package="net.medlinker.medlinker" content-desc="" checkable="false"
+									checked="false" clickable="false" enabled="true" focusable="false"
+									focused="false" scrollable="false" long-clickable="false"
+									password="false" selected="false" bounds="[12,83][468,112]">
+									<node index="0" text="查找好友" resource-id="net.medlinker.medlinker:id/et_input"
+										class="android.widget.EditText" package="net.medlinker.medlinker"
+										content-desc="" checkable="false" checked="false" clickable="true"
+										enabled="true" focusable="true" focused="true" scrollable="false"
+										long-clickable="true" password="false" selected="false"
+										bounds="[12,88][468,107]" />
+								</node>
+								<node index="1" text=""
+									resource-id="net.medlinker.medlinker:id/lv_invite_user_list"
+									class="android.widget.ListView" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="true"
+									enabled="true" focusable="true" focused="false" scrollable="true"
+									long-clickable="false" password="false" selected="false"
+									bounds="[0,120][480,800]">
+									<node index="0" text="" resource-id=""
+										class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+										content-desc="" checkable="false" checked="false" clickable="true"
+										enabled="true" focusable="false" focused="false" scrollable="false"
+										long-clickable="false" password="false" selected="false"
+										bounds="[0,120][480,315]">
+										<node index="0" text="" resource-id=""
+											class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,120][480,315]">
+											<node index="0" text="" resource-id=""
+												class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+												content-desc="" checkable="false" checked="false" clickable="false"
+												enabled="true" focusable="false" focused="false" scrollable="false"
+												long-clickable="false" password="false" selected="false"
+												bounds="[0,120][480,315]">
+												<node index="0" text="系统" resource-id=""
+													class="android.widget.TextView" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="false" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,120][480,145]" />
+												<node index="1" text=""
+													resource-id="net.medlinker.medlinker:id/system_msg" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="true" enabled="true"
+													focusable="false" focused="false" scrollable="false"
+													long-clickable="false" password="false" selected="false"
+													bounds="[0,145][480,201]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header_system"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,153][48,193]" />
+													<node index="1" text="系统消息"
+														resource-id="net.medlinker.medlinker:id/tv_user_name_system"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,162][114,183]" />
+												</node>
+												<node index="2" text=""
+													resource-id="net.medlinker.medlinker:id/wallet_divider_line"
+													class="android.view.View" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="false" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[8,201][472,202]" />
+												<node index="3" text=""
+													resource-id="net.medlinker.medlinker:id/wallet_msg" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="true" enabled="true"
+													focusable="false" focused="false" scrollable="false"
+													long-clickable="false" password="false" selected="false"
+													bounds="[0,202][480,258]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header_wallet"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,210][48,250]" />
+													<node index="1" text="钱包小助手"
+														resource-id="net.medlinker.medlinker:id/tv_user_name_wallet"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,219][129,240]" />
+												</node>
+												<node index="4" text=""
+													resource-id="net.medlinker.medlinker:id/medlinker_divider_line"
+													class="android.view.View" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="false" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[8,258][472,259]" />
+												<node index="5" text=""
+													resource-id="net.medlinker.medlinker:id/medlinker_msg"
+													class="android.widget.RelativeLayout" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="true" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,259][480,315]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header_helper"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,267][48,307]" />
+													<node index="1" text="经纪人小助手"
+														resource-id="net.medlinker.medlinker:id/tv_user_name_helper"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,276][144,297]" />
+												</node>
+											</node>
+										</node>
+									</node>
+									<node index="1" text="" resource-id=""
+										class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+										content-desc="" checkable="false" checked="false" clickable="true"
+										enabled="true" focusable="false" focused="false" scrollable="false"
+										long-clickable="false" password="false" selected="false"
+										bounds="[0,315][480,510]">
+										<node index="0" text="" resource-id=""
+											class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,315][480,510]">
+											<node index="0" text="" resource-id=""
+												class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+												content-desc="" checkable="false" checked="false" clickable="false"
+												enabled="true" focusable="false" focused="false" scrollable="false"
+												long-clickable="false" password="false" selected="false"
+												bounds="[0,315][480,510]">
+												<node index="0" text="推荐用户"
+													resource-id="net.medlinker.medlinker:id/tv_people_hub_title"
+													class="android.widget.TextView" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="false" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,315][480,340]" />
+												<node index="1" text=""
+													resource-id="net.medlinker.medlinker:id/may_know_item"
+													class="android.widget.RelativeLayout" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="true" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,340][480,396]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header_mayknow"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,348][48,388]" />
+													<node index="1" text="可能认识"
+														resource-id="net.medlinker.medlinker:id/tv_user_name_mayknow"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,357][114,378]" />
+												</node>
+												<node index="2" text=""
+													resource-id="net.medlinker.medlinker:id/view_line_hub_1"
+													class="android.view.View" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="false" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[8,396][472,397]" />
+												<node index="3" text=""
+													resource-id="net.medlinker.medlinker:id/peer_layout" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="true" enabled="true"
+													focusable="false" focused="false" scrollable="false"
+													long-clickable="false" password="false" selected="false"
+													bounds="[0,397][480,453]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header_peer"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,405][48,445]" />
+													<node index="1" text="同行医生"
+														resource-id="net.medlinker.medlinker:id/tv_user_name_peer"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,414][114,435]" />
+												</node>
+												<node index="4" text=""
+													resource-id="net.medlinker.medlinker:id/view_line_hub_2"
+													class="android.view.View" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="false" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[8,453][472,454]" />
+												<node index="5" text=""
+													resource-id="net.medlinker.medlinker:id/famous_item" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="true" enabled="true"
+													focusable="false" focused="false" scrollable="false"
+													long-clickable="false" password="false" selected="false"
+													bounds="[0,454][480,510]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header_famous"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,462][48,502]" />
+													<node index="1" text="知名医生"
+														resource-id="net.medlinker.medlinker:id/tv_user_name_peer_famous"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,471][114,492]" />
+												</node>
+											</node>
+										</node>
+									</node>
+									<node index="2" text=""
+										resource-id="net.medlinker.medlinker:id/root_layout" class="android.widget.LinearLayout"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="true" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[0,510][480,591]">
+										<node index="0" text="C"
+											resource-id="net.medlinker.medlinker:id/tv_letter_name"
+											class="android.widget.TextView" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,510][480,535]" />
+										<node index="1" text="" resource-id=""
+											class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,535][480,591]">
+											<node index="1" text="" resource-id=""
+												class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+												content-desc="" checkable="false" checked="false" clickable="false"
+												enabled="true" focusable="false" focused="false" scrollable="false"
+												long-clickable="false" password="false" selected="false"
+												bounds="[0,535][480,591]">
+												<node index="0" text=""
+													resource-id="net.medlinker.medlinker:id/swipe_view" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="false"
+													enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,535][480,591]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,543][48,583]" />
+													<node index="1" text="蔡惠民"
+														resource-id="net.medlinker.medlinker:id/tv_user_name"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,552][99,573]" />
+												</node>
+											</node>
+										</node>
+									</node>
+									<node index="3" text=""
+										resource-id="net.medlinker.medlinker:id/root_layout" class="android.widget.LinearLayout"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="true" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[0,591][480,648]">
+										<node index="0" text="" resource-id=""
+											class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,591][480,648]">
+											<node index="1" text="" resource-id=""
+												class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+												content-desc="" checkable="false" checked="false" clickable="false"
+												enabled="true" focusable="false" focused="false" scrollable="false"
+												long-clickable="false" password="false" selected="false"
+												bounds="[0,591][480,648]">
+												<node index="0" text=""
+													resource-id="net.medlinker.medlinker:id/divider_line"
+													class="android.view.View" package="net.medlinker.medlinker"
+													content-desc="" checkable="false" checked="false"
+													clickable="false" enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[8,591][472,592]" />
+												<node index="1" text=""
+													resource-id="net.medlinker.medlinker:id/swipe_view" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="false"
+													enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,592][480,648]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,600][48,640]" />
+													<node index="1" text="崔玮"
+														resource-id="net.medlinker.medlinker:id/tv_user_name"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,609][84,630]" />
+												</node>
+											</node>
+										</node>
+									</node>
+									<node index="4" text=""
+										resource-id="net.medlinker.medlinker:id/root_layout" class="android.widget.LinearLayout"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="true" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[0,648][480,729]">
+										<node index="0" text="D"
+											resource-id="net.medlinker.medlinker:id/tv_letter_name"
+											class="android.widget.TextView" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,648][480,673]" />
+										<node index="1" text="" resource-id=""
+											class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,673][480,729]">
+											<node index="1" text="" resource-id=""
+												class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+												content-desc="" checkable="false" checked="false" clickable="false"
+												enabled="true" focusable="false" focused="false" scrollable="false"
+												long-clickable="false" password="false" selected="false"
+												bounds="[0,673][480,729]">
+												<node index="0" text=""
+													resource-id="net.medlinker.medlinker:id/swipe_view" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="false"
+													enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,673][480,729]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,681][48,721]" />
+													<node index="1" text="代杰文"
+														resource-id="net.medlinker.medlinker:id/tv_user_name"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,690][99,711]" />
+												</node>
+											</node>
+										</node>
+									</node>
+									<node index="5" text=""
+										resource-id="net.medlinker.medlinker:id/root_layout" class="android.widget.LinearLayout"
+										package="net.medlinker.medlinker" content-desc="" checkable="false"
+										checked="false" clickable="true" enabled="true" focusable="false"
+										focused="false" scrollable="false" long-clickable="false"
+										password="false" selected="false" bounds="[0,729][480,800]">
+										<node index="0" text="G"
+											resource-id="net.medlinker.medlinker:id/tv_letter_name"
+											class="android.widget.TextView" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,729][480,754]" />
+										<node index="1" text="" resource-id=""
+											class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="false"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="false" password="false" selected="false"
+											bounds="[0,754][480,800]">
+											<node index="1" text="" resource-id=""
+												class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+												content-desc="" checkable="false" checked="false" clickable="false"
+												enabled="true" focusable="false" focused="false" scrollable="false"
+												long-clickable="false" password="false" selected="false"
+												bounds="[0,754][480,800]">
+												<node index="0" text=""
+													resource-id="net.medlinker.medlinker:id/swipe_view" class="android.widget.RelativeLayout"
+													package="net.medlinker.medlinker" content-desc=""
+													checkable="false" checked="false" clickable="false"
+													enabled="true" focusable="false" focused="false"
+													scrollable="false" long-clickable="false" password="false"
+													selected="false" bounds="[0,754][480,800]">
+													<node index="0" text=""
+														resource-id="net.medlinker.medlinker:id/civ_user_header"
+														class="android.widget.ImageView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[8,762][48,800]" />
+													<node index="1" text="郭超"
+														resource-id="net.medlinker.medlinker:id/tv_user_name"
+														class="android.widget.TextView" package="net.medlinker.medlinker"
+														content-desc="" checkable="false" checked="false"
+														clickable="false" enabled="true" focusable="false"
+														focused="false" scrollable="false" long-clickable="false"
+														password="false" selected="false" bounds="[54,771][84,792]" />
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+								<node index="2" text="" resource-id="net.medlinker.medlinker:id/sidebar"
+									class="android.view.View" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="false"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[460,135][480,740]" />
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</hierarchy>

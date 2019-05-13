@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+	<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+		package="net.medlinker.medlinker" content-desc="" checkable="false"
+		checked="false" clickable="false" enabled="true" focusable="false"
+		focused="false" scrollable="false" long-clickable="false" password="false"
+		selected="false" bounds="[0,539][480,800]">
+		<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+			package="net.medlinker.medlinker" content-desc="" checkable="false"
+			checked="false" clickable="false" enabled="true" focusable="false"
+			focused="false" scrollable="false" long-clickable="false" password="false"
+			selected="false" bounds="[0,539][480,800]">
+			<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout"
+				package="net.medlinker.medlinker" content-desc="" checkable="false"
+				checked="false" clickable="false" enabled="true" focusable="false"
+				focused="false" scrollable="false" long-clickable="false" password="false"
+				selected="false" bounds="[0,539][480,800]">
+				<node index="0" text="" resource-id=""
+					class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+					content-desc="" checkable="false" checked="false" clickable="false"
+					enabled="true" focusable="false" focused="false" scrollable="false"
+					long-clickable="false" password="false" selected="false" bounds="[0,539][480,800]">
+					<node index="0" text="" resource-id=""
+						class="android.widget.FrameLayout" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false"
+						bounds="[0,539][480,587]">
+						<node index="0" text="取消"
+							resource-id="net.medlinker.medlinker:id/cancelButton" class="android.widget.Button"
+							package="net.medlinker.medlinker" content-desc="" checkable="false"
+							checked="false" clickable="true" enabled="true" focusable="true"
+							focused="false" scrollable="false" long-clickable="false"
+							password="false" selected="false" bounds="[0,539][64,587]" alias="cancel" click="InfoEdit_my_school|last_page"/>
+						<node index="1" text="确定" resource-id="net.medlinker.medlinker:id/okButton"
+							class="android.widget.Button" package="net.medlinker.medlinker"
+							content-desc="" checkable="false" checked="false" clickable="true"
+							enabled="true" focusable="true" focused="false" scrollable="false"
+							long-clickable="false" password="false" selected="false"
+							bounds="[416,539][480,587]" alias="commit" click="InfoEdit_my_school|last_page"/>
+					</node>
+					<node index="1" text=""
+						resource-id="net.medlinker.medlinker:id/buttonHorizontalDivider"
+						class="android.view.View" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false"
+						bounds="[0,587][480,588]" />
+					<node index="2" text="" resource-id="net.medlinker.medlinker:id/viewPager"
+						class="android.support.v4.view.ViewPager" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="true" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false"
+						bounds="[0,588][480,800]">
+						<node index="0" text="" resource-id="net.medlinker.medlinker:id/datePicker"
+							class="android.widget.DatePicker" package="net.medlinker.medlinker"
+							content-desc="" checkable="false" checked="false" clickable="false"
+							enabled="true" focusable="false" focused="false" scrollable="false"
+							long-clickable="false" password="false" selected="false"
+							bounds="[0,588][480,800]">
+							<node index="0" text="" resource-id=""
+								class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+								content-desc="" checkable="false" checked="false" clickable="false"
+								enabled="true" focusable="false" focused="false" scrollable="false"
+								long-clickable="false" password="false" selected="false"
+								bounds="[156,588][324,800]">
+								<node index="0" text="" resource-id="android:id/pickers"
+									class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+									content-desc="" checkable="false" checked="false" clickable="false"
+									enabled="true" focusable="false" focused="false" scrollable="false"
+									long-clickable="false" password="false" selected="false"
+									bounds="[156,588][324,800]">
+									<node index="0" text="" resource-id=""
+										class="android.widget.NumberPicker" package="net.medlinker.medlinker"
+										content-desc="" checkable="false" checked="false" clickable="false"
+										enabled="true" focusable="false" focused="false" scrollable="true"
+										long-clickable="false" password="false" selected="false"
+										bounds="[164,604][228,784]">
+										<node index="0" text="2011" resource-id=""
+											class="android.widget.Button" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="true"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="true" password="false" selected="false"
+											bounds="[164,604][228,670]" />
+										<node index="1" text="2012" resource-id="android:id/numberpicker_input"
+											class="android.widget.EditText" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="true"
+											enabled="true" focusable="true" focused="false" scrollable="false"
+											long-clickable="true" password="false" selected="false"
+											bounds="[164,670][228,718]" alias="year" primary="true"/>
+										<node index="2" text="2013" resource-id=""
+											class="android.widget.Button" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="true"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="true" password="false" selected="false"
+											bounds="[164,718][228,784]" />
+									</node>
+									<node index="1" text="" resource-id=""
+										class="android.widget.NumberPicker" package="net.medlinker.medlinker"
+										content-desc="" checkable="false" checked="false" clickable="false"
+										enabled="true" focusable="false" focused="false" scrollable="true"
+										long-clickable="false" password="false" selected="false"
+										bounds="[252,604][316,784]">
+										<node index="0" text="6" resource-id=""
+											class="android.widget.Button" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="true"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="true" password="false" selected="false"
+											bounds="[252,604][316,670]" />
+										<node index="1" text="7" resource-id="android:id/numberpicker_input"
+											class="android.widget.EditText" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="true"
+											enabled="true" focusable="true" focused="false" scrollable="false"
+											long-clickable="true" password="false" selected="false"
+											bounds="[252,670][316,718]" alias="month" primary="true"/>
+										<node index="2" text="8" resource-id=""
+											class="android.widget.Button" package="net.medlinker.medlinker"
+											content-desc="" checkable="false" checked="false" clickable="true"
+											enabled="true" focusable="false" focused="false" scrollable="false"
+											long-clickable="true" password="false" selected="false"
+											bounds="[252,718][316,784]" />
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</hierarchy>
