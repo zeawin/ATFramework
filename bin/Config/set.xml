@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opt doc_type="TC_CFG" version="2">
+	<!--测试套配置 -->
+	<test_set name="TestSet">
+		<test_set_parameters>
+			<!--测试总时长，超过此时长报错 -->
+			<parameter name="duration" value="168H" />
+			<!--测试套内的测试用例是否并发执行 -->
+			<parameter name="parallel" value="False" />
+		</test_set_parameters>
+		<!--此测试套中的测试用例（case）或测试配置(configuration) -->
+		<tests>
+			<!--测试用例的名称，测试用例的class名字 -->
+
+			<!--<test type="case" name="Mine_info_integrity">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Mine/Mine_info_integrity</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Mine_info_edit_myschool">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Mine/InfoEdit/Mine_info_edit_myschool</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Mine_info_edit_baseinfo">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Mine/InfoEdit/Mine_info_edit_baseinfo</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Mine_info_edit_introduce">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Mine/InfoEdit/Mine_info_edit_introduce</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Home_caselib_case_publish_01">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Home/Case/Home_caselib_case_publish_01</location>-->
+			<!--</test>-->
+
+			<test type="case" name="Home_caselib_case_publish_02">
+			<!--测试用例的路径-->
+			<location>CaseLib/Home/Case/Home_caselib_case_publish_02</location>
+			</test>
+
+			<!--<test type="case" name="Home_caselib_acount">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Home/Case/Home_caselib_acount</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Home_caselib_question_publish_01">-->
+				<!--&lt;!&ndash;测试用例的路径 &ndash;&gt;-->
+				<!--<location>CaseLib/Home/Case/Home_caselib_question_publish_01</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Home_caselib_contribution_display">-->
+				<!--&lt;!&ndash;测试用例的路径 &ndash;&gt;-->
+				<!--<location>CaseLib/Home/Case/Contribution/Home_caselib_contribution_display</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Home_caselib_contribution_casepub_01">-->
+				<!--&lt;!&ndash;测试用例的路径 &ndash;&gt;-->
+				<!--<location>CaseLib/Home/Case/Contribution/Home_caselib_contribution_casepub_01</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Home_caselib_contribution_casepub_02">-->
+				<!--&lt;!&ndash;测试用例的路径 &ndash;&gt;-->
+				<!--<location>CaseLib/Home/Case/Contribution/Home_caselib_contribution_casepub_02</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Visits_order_mgr">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Visits/Visits_order_mgr</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Mine_info_edit_department">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Mine/InfoEdit/Mine_info_edit_department</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Circle_dorcircle_pubpost">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Circle/DorCircle/Circle_dorcircle_pubpost</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Message_contacts_groupchart">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Message/Contacts/Message_contacts_groupchart</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Message_more_groupchart">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Message/More/Message_more_groupchart</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Mine_info_walkall">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Mine/Mine_info_walkall</location>-->
+			<!--</test>-->
+
+			<!--<test type="case" name="Mine_info_edit_speciality">-->
+			<!--&lt;!&ndash;测试用例的路径&ndash;&gt;-->
+			<!--<location>CaseLib/Mine/InfoEdit/Mine_info_edit_speciality</location>-->
+			<!--</test>-->
+
+		</tests>
+	</test_set>
+</opt>

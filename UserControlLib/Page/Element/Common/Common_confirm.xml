@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<hierarchy rotation="0">
+	<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+		package="net.medlinker.medlinker" content-desc="" checkable="false"
+		checked="false" clickable="false" enabled="true" focusable="false"
+		focused="false" scrollable="false" long-clickable="false" password="false"
+		selected="false" bounds="[80,341][400,483]">
+		<node index="0" text="" resource-id="" class="android.widget.FrameLayout"
+			package="net.medlinker.medlinker" content-desc="" checkable="false"
+			checked="false" clickable="false" enabled="true" focusable="false"
+			focused="false" scrollable="false" long-clickable="false" password="false"
+			selected="false" bounds="[80,341][400,483]">
+			<node index="0" text="" resource-id="android:id/content" class="android.widget.FrameLayout"
+				package="net.medlinker.medlinker" content-desc="" checkable="false"
+				checked="false" clickable="false" enabled="true" focusable="false"
+				focused="false" scrollable="false" long-clickable="false" password="false"
+				selected="false" bounds="[80,341][400,483]">
+				<node index="0" text="" resource-id=""
+					class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+					content-desc="" checkable="false" checked="false" clickable="false"
+					enabled="true" focusable="false" focused="false" scrollable="false"
+					long-clickable="false" password="false" selected="false"
+					bounds="[80,341][400,483]">
+					<node index="0" text="" resource-id="net.medlinker.medlinker:id/content"
+						class="android.widget.LinearLayout" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false"
+						bounds="[87,341][393,418]">
+						<node index="0" text="不完整的学校信息将不会保存,是否要取消编辑?" resource-id="net.medlinker.medlinker:id/message"
+							class="android.widget.TextView" package="net.medlinker.medlinker"
+							content-desc="" checkable="false" checked="false" clickable="false"
+							enabled="true" focusable="false" focused="false" scrollable="false"
+							long-clickable="false" password="false" selected="false"
+							bounds="[97,351][383,408]" />
+					</node>
+					<node index="1" text="" resource-id="net.medlinker.medlinker:id/lv_buttons"
+						class="android.view.View" package="net.medlinker.medlinker"
+						content-desc="" checkable="false" checked="false" clickable="false"
+						enabled="true" focusable="false" focused="false" scrollable="false"
+						long-clickable="false" password="false" selected="false"
+						bounds="[87,434][393,435]" />
+					<node index="2" text=""
+						resource-id="net.medlinker.medlinker:id/buttons_layout" class="android.widget.LinearLayout"
+						package="net.medlinker.medlinker" content-desc="" checkable="false"
+						checked="false" clickable="false" enabled="true" focusable="false"
+						focused="false" scrollable="false" long-clickable="false"
+						password="false" selected="false" bounds="[87,435][393,483]">
+						<node index="0" text="是"
+							resource-id="net.medlinker.medlinker:id/positive_button" class="android.widget.TextView"
+							package="net.medlinker.medlinker" content-desc="" checkable="false"
+							checked="false" clickable="true" enabled="true" focusable="false"
+							focused="false" scrollable="false" long-clickable="false"
+							password="false" selected="false" bounds="[87,435][239,483]" alias="commit" primary="true" click="InfoEdit_index|InfoEdit_my_school|last"/>
+						<node index="1" text=""
+							resource-id="net.medlinker.medlinker:id/buttons_divider_line"
+							class="android.view.View" package="net.medlinker.medlinker"
+							content-desc="" checkable="false" checked="false" clickable="false"
+							enabled="true" focusable="false" focused="false" scrollable="false"
+							long-clickable="false" password="false" selected="false"
+							bounds="[239,440][240,478]" />
+						<node index="2" text="否"
+							resource-id="net.medlinker.medlinker:id/negative_button" class="android.widget.TextView"
+							package="net.medlinker.medlinker" content-desc="" checkable="false"
+							checked="false" clickable="true" enabled="true" focusable="false"
+							focused="false" scrollable="false" long-clickable="false"
+							password="false" selected="false" bounds="[240,435][393,483]" alias="cancel" primary="true" click="InfoEdit_my_school|current"/>
+					</node>
+				</node>
+			</node>
+		</node>
+	</node>
+</hierarchy>

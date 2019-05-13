@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<opt doc_type="'MAIN_CFG" versin="1">
+    <!--local_base_log_path与local_execution_log_path都应指定。指定local_execution_log_path
+    被视为当前测试执行的日志目录。所有日志文件都将在放在此目录里。-->
+    <!--指定本地日志存放路径-->
+    <!--<local_base_log_path>logs</local_base_log_path>-->
+    <!--指定测试执行的存放路径-->
+    <local_execution_log_path>execution_logs</local_execution_log_path>
+    <!--指定测试套文件路径-->
+    <test_set_file>Config\set.xml</test_set_file>
+    <!--指定测试床文件路径-->
+    <testbed_file>Config\bed.xml</testbed_file>
+    <!--预留case管理，用于回填结果-->
+    <!--<cases_manager_system></cases_manager_system>-->
+    <execution_parameters>
+        <!--accepts boolean values: 1 or 0.-->
+        <param name="stop_on_error" value="0"/>
+        <!--the logging level for the information displayed on the screen and input to log files-->
+        <param name="logging_level" value="DEBUG"/>
+    </execution_parameters>
+</opt>

@@ -1,0 +1,144 @@
+* {
+margin: 0;
+}
+
+# content
+{
+	width: 1363px;
+}
+
+#log
+{
+width: 100%;
+table-layout:fixed;
+font-family: verdana,arial,sana-serif;
+font-size:14px;
+border-width:1px;
+border-color:#666666;
+border-collapse:collapse;
+}
+#log td, #log th
+{
+font-size:lem;
+border:1px solid #666666;
+padding:5px;
+vertical-align:top;
+background-color:while;
+}
+
+#log tr.FAIL tr.ERROR tr.CONFIG_ERROR
+{
+color:red;
+}
+#log tr.PASS
+{
+color:green;
+}
+#log tr.CMD_RESPONSE tr.CMD
+{
+color:blue;
+}
+#log td.timestamp
+{
+width:110px;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-wrap:break-word;
+}
+
+#log td.level
+{
+width:100px;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-wrap:break-word;
+}
+
+#log td.thread
+{
+width:120px;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-wrap:break-word;
+}
+
+#log td.hierarchy
+{
+width:150px;
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-wrap:break-word;
+}
+
+#log td.message
+{
+white-space: -moz-pre-wrap;
+white-space: -pre-wrap;
+white-space: -o-pre-wrap;
+white-space: pre-wrap;
+word-wrap:break-word;
+}
+
+.CMD_RESPONSE td
+{
+margin:0px;
+padding:5px;
+background:#e5eecc;
+border:1px solid brown;
+}
+
+.expandButton
+{
+background:#e5eecc;
+text-align:center;
+font-size:lem;
+font-weight:bold;
+border:2px groove green;
+}
+
+/*右侧工具栏样式*/
+#panel{
+width:300px;
+psition:fixed;
+top:0px;
+right:0px;
+}
+
+#panel *{
+font-family:verdana,arial,sana-serif;
+font-size:14px;
+}
+
+#scorecard {
+margin-top: 10px;
+}
+
+#scorecard table {
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse:collapse;
+}
+
+#graph {
+margin-top:30px;
+width:300px;
+height:400px;
+}
+
+#sildeButton
+{
+position:absolute;
+z-index:100;
+right:300px;
+color:#2ECCFA;
+font-weight:bold;
+border:0px groove white;
+}

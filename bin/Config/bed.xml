@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<!DOCTYPE testbedinfo>
+<testbedinfo>
+	<!--所有手机端配置信息，当前只顾及Android-->
+	<phones>
+		<!--Android设备的全局唯一id，平台版本号，全局唯一名称-->
+		<Android id="0" version="4.4.2" name="phoneVM:5555">
+			<!--此Android设备对应被测app安装文件-->
+			<app_location>apk\medlinker.apk</app_location>
+			<!--此Android设备app package名称-->
+			<app_package>net.medlinker.medlinker</app_package>
+			<!--命令服务器-->
+			<command_executor>http://localhost:4723/wd/hub</command_executor>
+			<!--登录方式way为password时密码验证方式，type为code时验证码登录方式 -->
+			<account way="password" user="11110052390" password="123456" />
+		</Android>
+	</phones>
+</testbedinfo>
